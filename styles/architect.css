@@ -151,6 +151,20 @@ main>section {
 
 .features img {
     margin-top: 200px;
+    width: 100%;
+}
+
+#experience-badge {
+    padding: 45px 42px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: -100px;
+    margin-top: -100px;
+}
+
+#experience-year {
+    font-size: 4rem;
+    font-weight: 700;
 }
 
 /* some facts related styles */
@@ -209,6 +223,7 @@ main>section {
 
     .navbar,
     .nav-links,
+    .features,
     .teams {
         flex-direction: column;
     }
@@ -230,6 +245,11 @@ main>section {
     }
 
     .our-features {
+        margin-left: 20px;
+    }
+
+    #experience-badge {
+        margin-top: 20px;
         margin-left: 20px;
     }
 }
